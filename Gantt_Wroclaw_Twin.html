@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Wrocław Twin: harmonogram projektu (Gantt)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  @page { size: A4 landscape; margin: 8mm; }
+  html, body { margin: 0; background: #ffffff; }
+  body { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .sheet { max-width: 1280px; margin: 0 auto; padding: 16px; }
+  svg { display: block; width: 100%; height: auto; }
+  @media print {
+    .sheet { max-width: none; padding: 0; }
+    svg { width: 100%; max-height: 194mm; }
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+<svg id="gantt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 896" role="img" aria-label="Wykres Gantta projektu Wrocław Twin" font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+<defs><marker id="ar" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#64748B"/></marker></defs>
+<rect width="1200" height="896" fill="#FFFFFF"/>
+<text x="24" y="34" font-size="22" font-weight="700" fill="#1E293B">Wrocław Twin: harmonogram projektu</text>
+<text x="24" y="54" font-size="11.5" fill="#64748B">Zadania w trzech perspektywach, kamienie milowe i zależności między zadaniami</text>
+<rect x="24" y="63" width="22" height="9" rx="2" fill="#3B6EA8"/>
+<text x="52" y="72" font-size="10.5" fill="#1E293B">Perspektywa 1: do końca sem. 2</text>
+<rect x="229" y="63" width="22" height="9" rx="2" fill="#2A9D8F"/>
+<text x="257" y="72" font-size="10.5" fill="#1E293B">Perspektywa 2: do końca sem. 3</text>
+<rect x="434" y="63" width="22" height="9" rx="2" fill="#8E7CC3"/>
+<text x="462" y="72" font-size="10.5" fill="#1E293B">Perspektywa 3: po studiach</text>
+<path d="M645,62 l6,5.5 l-6,5.5 l-6,-5.5 z" fill="#D1495B"/>
+<text x="659" y="72" font-size="10.5" fill="#1E293B">Kamień milowy</text>
+<path d="M759,67.5 h22" stroke="#64748B" stroke-width="1.2" marker-end="url(#ar)"/>
+<text x="789" y="72" font-size="10.5" fill="#1E293B">Zależność</text>
+<path d="M851,67.5 h22" stroke="#64748B" stroke-width="1.2" stroke-dasharray="3 2" marker-end="url(#ar)"/>
+<text x="881" y="72" font-size="10.5" fill="#1E293B">Zależność częściowa</text>
+<rect x="460" y="92" width="716" height="38" fill="#F1F5F9"/>
+<rect x="460.0" y="130" width="58.6" height="616" fill="#F8FAFC"/>
+<text x="489.3" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">paź</text>
+<text x="551.1" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">lis</text>
+<rect x="583.7" y="130" width="67.3" height="616" fill="#F8FAFC"/>
+<text x="617.3" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">gru</text>
+<text x="684.6" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">sty</text>
+<rect x="718.2" y="130" width="60.8" height="616" fill="#F8FAFC"/>
+<text x="748.6" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">lut</text>
+<text x="812.6" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">mar</text>
+<rect x="846.2" y="130" width="65.1" height="616" fill="#F8FAFC"/>
+<text x="878.8" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">kwi</text>
+<text x="944.9" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">maj</text>
+<rect x="978.6" y="130" width="65.1" height="616" fill="#F8FAFC"/>
+<text x="1011.1" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">cze</text>
+<text x="1077.3" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">lip</text>
+<rect x="1110.9" y="130" width="65.1" height="616" fill="#F8FAFC"/>
+<text x="1143.5" y="119" font-size="10.5" text-anchor="middle" fill="#1E293B">sie</text>
+<text x="555.5" y="105" font-size="10.5" font-weight="700" text-anchor="middle" fill="#1E293B">2026</text>
+<line x1="460.0" y1="109" x2="650.9" y2="109" stroke="#CBD5E1" stroke-width="0.8"/>
+<text x="913.5" y="105" font-size="10.5" font-weight="700" text-anchor="middle" fill="#1E293B">2027</text>
+<line x1="650.9" y1="109" x2="1176.0" y2="109" stroke="#CBD5E1" stroke-width="0.8"/>
+<line x1="518.6" y1="109" x2="518.6" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="583.7" y1="109" x2="583.7" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="650.9" y1="109" x2="650.9" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="718.2" y1="109" x2="718.2" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="778.9" y1="109" x2="778.9" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="846.2" y1="109" x2="846.2" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="911.3" y1="109" x2="911.3" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="978.6" y1="109" x2="978.6" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="1043.6" y1="109" x2="1043.6" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<line x1="1110.9" y1="109" x2="1110.9" y2="882" stroke="#E2E8F0" stroke-width="0.8"/>
+<text x="26" y="119" font-size="10.5" font-weight="700" fill="#1E293B" text-anchor="start">Nr</text>
+<text x="64" y="119" font-size="10.5" font-weight="700" fill="#1E293B" text-anchor="start">Zadanie</text>
+<text x="356" y="119" font-size="10.5" font-weight="700" fill="#1E293B" text-anchor="start">Odpowiedzialny</text>
+<line x1="24" y1="130" x2="1176" y2="130" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="24" y1="158" x2="1176" y2="158" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="135" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="147.5" font-size="10.5" font-weight="700" fill="#1E293B">1.1</text>
+<text x="64" y="142.0" font-size="9.6" fill="#1E293B">Zdefiniować obszar modelu (RING 1–2, strefy robocze) i</text>
+<text x="64" y="153.0" font-size="9.6" fill="#1E293B">ustalić rok bazowy danych</text>
+<text x="356" y="147.5" font-size="9.4" fill="#64748B">Dominik</text>
+<rect x="468.7" y="138.0" width="32.5" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="186" x2="1176" y2="186" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="163" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="175.5" font-size="10.5" font-weight="700" fill="#1E293B">1.2</text>
+<text x="64" y="170.0" font-size="9.6" fill="#1E293B">Ustalić i zamrozić kryteria akceptacji dla SUMO i</text>
+<text x="64" y="181.0" font-size="9.6" fill="#1E293B">MATSim (metryki, progi, okna agregacji)</text>
+<text x="356" y="175.5" font-size="9.4" fill="#64748B">Dominik, Mateusz</text>
+<rect x="505.6" y="166.0" width="41.2" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="214" x2="1176" y2="214" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="191" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="203.5" font-size="10.5" font-weight="700" fill="#1E293B">1.3</text>
+<text x="64" y="198.0" font-size="9.6" fill="#1E293B">Skonfigurować repozytorium (CI, polityka danych poza</text>
+<text x="64" y="209.0" font-size="9.6" fill="#1E293B">gitem)</text>
+<text x="356" y="203.5" font-size="9.4" fill="#64748B">Kacper</text>
+<rect x="505.6" y="194.0" width="41.2" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="242" x2="1176" y2="242" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="219" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="231.5" font-size="10.5" font-weight="700" fill="#1E293B">1.4</text>
+<text x="64" y="226.0" font-size="9.6" fill="#1E293B">Zinwentaryzować dane wejściowe i zamrozić podział</text>
+<text x="64" y="237.0" font-size="9.6" fill="#1E293B">kalibracja/walidacja</text>
+<text x="356" y="231.5" font-size="9.4" fill="#64748B">Michał</text>
+<rect x="520.8" y="222.0" width="71.6" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="270" x2="1176" y2="270" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="247" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="259.5" font-size="10.5" font-weight="700" fill="#1E293B">1.5</text>
+<text x="64" y="254.0" font-size="9.6" fill="#1E293B">Wygenerować surową sieć SUMO i przeprowadzić pilotaż</text>
+<text x="64" y="265.0" font-size="9.6" fill="#1E293B">czyszczenia w strefie RING 1</text>
+<text x="356" y="254.0" font-size="9.4" fill="#64748B">Stanisław,</text>
+<text x="356" y="265.0" font-size="9.4" fill="#64748B">Mateusz</text>
+<rect x="505.6" y="250.0" width="56.4" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="298" x2="1176" y2="298" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="275" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="287.5" font-size="10.5" font-weight="700" fill="#1E293B">1.6</text>
+<text x="64" y="287.5" font-size="9.6" fill="#1E293B">Oczyścić i zweryfikować sieć drogową RING 1</text>
+<text x="356" y="282.0" font-size="9.4" fill="#64748B">Stanisław,</text>
+<text x="356" y="293.0" font-size="9.4" fill="#64748B">Mateusz</text>
+<rect x="566.3" y="278.0" width="56.4" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="326" x2="1176" y2="326" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="303" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="315.5" font-size="10.5" font-weight="700" fill="#1E293B">1.7</text>
+<text x="64" y="310.0" font-size="9.6" fill="#1E293B">Oczyścić i zweryfikować sieć drogową RING 2 oraz</text>
+<text x="64" y="321.0" font-size="9.6" fill="#1E293B">scalić strefy</text>
+<text x="356" y="310.0" font-size="9.4" fill="#64748B">Stanisław,</text>
+<text x="356" y="321.0" font-size="9.4" fill="#64748B">Mateusz</text>
+<rect x="657.4" y="306.0" width="56.4" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="354" x2="1176" y2="354" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="331" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="343.5" font-size="10.5" font-weight="700" fill="#1E293B">1.8</text>
+<text x="64" y="338.0" font-size="9.6" fill="#1E293B">Zintegrować rozkłady transportu publicznego (GTFS) i</text>
+<text x="64" y="349.0" font-size="9.6" fill="#1E293B">zbudować sieć tramwajową</text>
+<text x="356" y="343.5" font-size="9.4" fill="#64748B">Michał</text>
+<rect x="596.7" y="334.0" width="102.0" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="382" x2="1176" y2="382" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="359" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="371.5" font-size="10.5" font-weight="700" fill="#1E293B">1.9</text>
+<text x="64" y="366.0" font-size="9.6" fill="#1E293B">Zaimplementować bazową sygnalizację dla skrzyżowań</text>
+<text x="64" y="377.0" font-size="9.6" fill="#1E293B">obszaru badań</text>
+<text x="356" y="371.5" font-size="9.4" fill="#64748B">Michał</text>
+<rect x="703.0" y="362.0" width="41.2" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="410" x2="1176" y2="410" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="387" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="399.5" font-size="10.5" font-weight="700" fill="#1E293B">1.10</text>
+<text x="64" y="394.0" font-size="9.6" fill="#1E293B">Zbudować potok ETL i zmapować dane (NSP, KBR) na</text>
+<text x="64" y="405.0" font-size="9.6" fill="#1E293B">strefy modelu</text>
+<text x="356" y="399.5" font-size="9.4" fill="#64748B">Kacper</text>
+<rect x="551.1" y="390.0" width="71.6" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="438" x2="1176" y2="438" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="415" width="3" height="18" rx="1.5" fill="#3B6EA8"/>
+<text x="32" y="427.5" font-size="10.5" font-weight="700" fill="#1E293B">1.11</text>
+<text x="64" y="427.5" font-size="9.6" fill="#1E293B">Zaimplementować reprodukowalną syntezę populacji</text>
+<text x="356" y="427.5" font-size="9.4" fill="#64748B">Kacper, Dominik</text>
+<rect x="657.4" y="418.0" width="56.4" height="12" rx="3" fill="#3B6EA8"/>
+<line x1="24" y1="466" x2="1176" y2="466" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="443" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="455.5" font-size="10.5" font-weight="700" fill="#1E293B">2.1</text>
+<text x="64" y="450.0" font-size="9.6" fill="#1E293B">Dopasować łańcuchy aktywności oraz uwzględnić w</text>
+<text x="64" y="461.0" font-size="9.6" fill="#1E293B">planach dziennych ruch zewnętrzny i dostawczy</text>
+<text x="356" y="455.5" font-size="9.4" fill="#64748B">Dominik</text>
+<rect x="748.6" y="446.0" width="71.6" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="494" x2="1176" y2="494" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="471" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="483.5" font-size="10.5" font-weight="700" fill="#1E293B">2.2</text>
+<text x="64" y="478.0" font-size="9.6" fill="#1E293B">Skonfigurować scenariusz bazowy SUMO-only (popyt z</text>
+<text x="64" y="489.0" font-size="9.6" fill="#1E293B">macierzy OD)</text>
+<text x="356" y="483.5" font-size="9.4" fill="#64748B">Mateusz</text>
+<rect x="748.6" y="474.0" width="56.4" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="522" x2="1176" y2="522" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="499" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="511.5" font-size="10.5" font-weight="700" fill="#1E293B">2.3</text>
+<text x="64" y="506.0" font-size="9.6" fill="#1E293B">Skonfigurować scenariusz MATSim na sieci wyprowadzonej</text>
+<text x="64" y="517.0" font-size="9.6" fill="#1E293B">z SUMO</text>
+<text x="356" y="511.5" font-size="9.4" fill="#64748B">Stanisław</text>
+<rect x="718.2" y="502.0" width="86.8" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="550" x2="1176" y2="550" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="527" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="539.5" font-size="10.5" font-weight="700" fill="#1E293B">2.4</text>
+<text x="64" y="534.0" font-size="9.6" fill="#1E293B">Zrealizować wstępną kalibrację scenariusza MATSim</text>
+<text x="64" y="545.0" font-size="9.6" fill="#1E293B">(podział modalny, rozkład odległości)</text>
+<text x="356" y="539.5" font-size="9.4" fill="#64748B">Stanisław, Kacper</text>
+<rect x="824.5" y="530.0" width="86.8" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="578" x2="1176" y2="578" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="555" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="567.5" font-size="10.5" font-weight="700" fill="#1E293B">2.5</text>
+<text x="64" y="562.0" font-size="9.6" fill="#1E293B">Zbudować szkielet pipeline&#x27;u konwersji MATSim → SUMO</text>
+<text x="64" y="573.0" font-size="9.6" fill="#1E293B">na danych testowych</text>
+<text x="356" y="567.5" font-size="9.4" fill="#64748B">Dominik</text>
+<rect x="824.5" y="558.0" width="86.8" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="606" x2="1176" y2="606" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="583" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="595.5" font-size="10.5" font-weight="700" fill="#1E293B">2.6</text>
+<text x="64" y="590.0" font-size="9.6" fill="#1E293B">Sfinalizować pipeline konwersji i ponownego</text>
+<text x="64" y="601.0" font-size="9.6" fill="#1E293B">przypisania (MATSim → SUMO)</text>
+<text x="356" y="595.5" font-size="9.4" fill="#64748B">Dominik, Michał</text>
+<rect x="915.6" y="586.0" width="26.0" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="634" x2="1176" y2="634" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="611" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="623.5" font-size="10.5" font-weight="700" fill="#1E293B">2.7</text>
+<text x="64" y="618.0" font-size="9.6" fill="#1E293B">Skalibrować mikroskopowo twina (SUMO) warstwami do</text>
+<text x="64" y="629.0" font-size="9.6" fill="#1E293B">wymaganych progów</text>
+<text x="356" y="623.5" font-size="9.4" fill="#64748B">Mateusz, Kacper</text>
+<rect x="930.8" y="614.0" width="71.6" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="662" x2="1176" y2="662" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="639" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="651.5" font-size="10.5" font-weight="700" fill="#1E293B">2.8</text>
+<text x="64" y="651.5" font-size="9.6" fill="#1E293B">Przeprowadzić walidację niezależną na zbiorze holdout</text>
+<text x="356" y="651.5" font-size="9.4" fill="#64748B">Michał, Stanisław</text>
+<rect x="1006.8" y="642.0" width="36.9" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="690" x2="1176" y2="690" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="667" width="3" height="18" rx="1.5" fill="#2A9D8F"/>
+<text x="32" y="679.5" font-size="10.5" font-weight="700" fill="#1E293B">2.9</text>
+<text x="64" y="674.0" font-size="9.6" fill="#1E293B">Opracować interfejs RL na wycinku twina i wykonać</text>
+<text x="64" y="685.0" font-size="9.6" fill="#1E293B">epizod testowy</text>
+<text x="356" y="679.5" font-size="9.4" fill="#64748B">Stanisław, Michał</text>
+<rect x="946.0" y="670.0" width="86.8" height="12" rx="3" fill="#2A9D8F"/>
+<line x1="24" y1="718" x2="1176" y2="718" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="695" width="3" height="18" rx="1.5" fill="#8E7CC3"/>
+<text x="32" y="707.5" font-size="10.5" font-weight="700" fill="#1E293B">3.1</text>
+<text x="64" y="707.5" font-size="9.6" fill="#1E293B">Wydać „Wrocław Twin v1.0” wraz z końcowym raportem</text>
+<text x="356" y="707.5" font-size="9.4" fill="#64748B">Grupa</text>
+<rect x="1043.6" y="698.0" width="65.1" height="12" rx="3" fill="#8E7CC3"/>
+<line x1="24" y1="746" x2="1176" y2="746" stroke="#E2E8F0" stroke-width="0.8"/>
+<rect x="24" y="723" width="3" height="18" rx="1.5" fill="#8E7CC3"/>
+<text x="32" y="735.5" font-size="10.5" font-weight="700" fill="#1E293B">3.2</text>
+<text x="64" y="730.0" font-size="9.6" fill="#1E293B">Przeprowadzić badania MARL sterowania sygnalizacją na</text>
+<text x="64" y="741.0" font-size="9.6" fill="#1E293B">twinie i opublikować wyniki</text>
+<text x="356" y="735.5" font-size="9.4" fill="#64748B">Grupa</text>
+<rect x="1113.1" y="726.0" width="62.9" height="12" rx="3" fill="#FFFFFF" stroke="#8E7CC3" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="1107.1" y="735.5" font-size="9" text-anchor="end" fill="#64748B">termin otwarty</text>
+<path d="M501.2,144.0 H504.2 V165.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M501.2,144.0 H504.2 V193.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M501.2,144.0 H505.2 V228.0 H519.8" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M501.2,144.0 H504.2 V249.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M562.0,256.0 H565.0 V277.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M622.7,284.0 H626.7 V312.0 H656.4" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M562.0,256.0 H566.0 V340.0 H595.7" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M622.7,284.0 H626.7 V368.0 H702.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M698.7,340.0 H701.7 V361.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M501.2,144.0 H505.2 V396.0 H550.1" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M546.8,200.0 H549.8 V389.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M622.7,396.0 H626.7 V424.0 H656.4" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M713.9,424.0 H717.9 V452.0 H747.6" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M713.9,312.0 H717.9 V480.0 H747.6" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M744.2,368.0 H747.2 V473.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M713.9,312.0 H716.9 V501.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M820.2,452.0 H823.2 V529.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M805.0,508.0 H809.0 V536.0 H823.5" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M805.0,508.0 H809.0 V564.0 H823.5" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M911.3,536.0 H914.3 V585.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M911.3,564.0 H914.3 V585.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M938.7,598.0 V613.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" stroke-dasharray="3 2" marker-end="url(#ar)"/>
+<path d="M1002.4,620.0 H1005.4 V641.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M744.2,368.0 H748.2 V676.0 H945.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M805.0,508.0 H809.0 V676.0 H945.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1043.6,648.0 H1046.6 V697.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1032.8,676.0 H1036.8 V704.0 H1042.6" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<path d="M1108.7,704.0 H1111.7 V725.0" fill="none" stroke="#64748B" stroke-width="1" stroke-opacity="0.85" marker-end="url(#ar)"/>
+<line x1="748.6" y1="130" x2="748.6" y2="882" stroke="#1E293B" stroke-width="1" stroke-dasharray="5 3" stroke-opacity="0.55"/>
+<text x="744.6" y="141" font-size="8.8" text-anchor="end" fill="#1E293B" fill-opacity="0.75">koniec sem. 2 (zał.)</text>
+<line x1="1041.5" y1="130" x2="1041.5" y2="882" stroke="#1E293B" stroke-width="1" stroke-dasharray="5 3" stroke-opacity="0.55"/>
+<text x="1037.5" y="141" font-size="8.8" text-anchor="end" fill="#1E293B" fill-opacity="0.75">koniec sem. 3 (zał.)</text>
+<g id="today"></g>
+<text x="24" y="772" font-size="10.5" font-weight="700" fill="#1E293B">Kamienie milowe</text>
+<line x1="24" y1="756" x2="1176" y2="756" stroke="#CBD5E1" stroke-width="1"/>
+<line x1="620.6" y1="130" x2="620.6" y2="788.0" stroke="#D1495B" stroke-width="0.9" stroke-dasharray="1.5 3" stroke-opacity="0.7"/>
+<path d="M620.6,781.5 l6.5,6.5 l-6.5,6.5 l-6.5,-6.5 z" fill="#D1495B"/>
+<text x="631.6" y="791.5" font-size="9.6" fill="#1E293B">KM1: Specyfikacja projektu i zebrane dane (18.12.2026)</text>
+<text x="32" y="791.5" font-size="9.6" fill="#64748B">Obowiązkowy – sem. 2</text>
+<line x1="742.1" y1="130" x2="742.1" y2="808.0" stroke="#D1495B" stroke-width="0.9" stroke-dasharray="1.5 3" stroke-opacity="0.7"/>
+<path d="M742.1,801.5 l6.5,6.5 l-6.5,6.5 l-6.5,-6.5 z" fill="#D1495B"/>
+<text x="753.1" y="811.5" font-size="9.6" fill="#1E293B">KM2: Kompletna sieć drogowo-tramwajowa z sygnalizacją (12.02.2027)</text>
+<text x="32" y="811.5" font-size="9.6" fill="#64748B">Obowiązkowy – sem. 2</text>
+<line x1="818.0" y1="130" x2="818.0" y2="828.0" stroke="#D1495B" stroke-width="0.9" stroke-dasharray="1.5 3" stroke-opacity="0.7"/>
+<path d="M818.0,821.5 l6.5,6.5 l-6.5,6.5 l-6.5,-6.5 z" fill="#D1495B"/>
+<text x="829.0" y="831.5" font-size="9.6" fill="#1E293B">KM3: Synteza populacji i wygenerowane plany dzienne (19.03.2027)</text>
+<text x="32" y="831.5" font-size="9.6" fill="#64748B">Dodatkowy</text>
+<line x1="939.5" y1="130" x2="939.5" y2="848.0" stroke="#D1495B" stroke-width="0.9" stroke-dasharray="1.5 3" stroke-opacity="0.7"/>
+<path d="M939.5,841.5 l6.5,6.5 l-6.5,6.5 l-6.5,-6.5 z" fill="#D1495B"/>
+<text x="928.5" y="851.5" font-size="9.6" text-anchor="end" fill="#1E293B">KM4: Skalibrowany model popytu i zintegrowane środowisko (SUMO + MATSim) (14.05.2027)</text>
+<text x="32" y="851.5" font-size="9.6" fill="#64748B">Obowiązkowy – sem. 3 (AI-Tech)</text>
+<line x1="1041.5" y1="130" x2="1041.5" y2="868.0" stroke="#D1495B" stroke-width="0.9" stroke-dasharray="1.5 3" stroke-opacity="0.7"/>
+<path d="M1041.5,861.5 l6.5,6.5 l-6.5,6.5 l-6.5,-6.5 z" fill="#D1495B"/>
+<text x="1030.5" y="871.5" font-size="9.6" text-anchor="end" fill="#1E293B">KM5: Finalny Digital Twin, walidacja i interfejs RL (30.06.2027)</text>
+<text x="32" y="871.5" font-size="9.6" fill="#64748B">Obowiązkowy – sem. 3 (AI-Tech)</text>
+</svg>
+</div>
+<script>
+(function () {
+  var t0 = Date.UTC(2026, 9, 5), t1 = Date.UTC(2027, 7, 31);
+  var now = new Date(), t = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+  if (t < t0 || t > t1) return;
+  var x0 = 460.00, x1 = 1176.00;
+  var x = x0 + (t - t0) / (t1 - t0) * (x1 - x0);
+  var g = document.getElementById('today'), ns = 'http://www.w3.org/2000/svg';
+  var l = document.createElementNS(ns, 'line');
+  l.setAttribute('x1', x); l.setAttribute('x2', x);
+  l.setAttribute('y1', 130); l.setAttribute('y2', 754);
+  l.setAttribute('stroke', '#D1495B'); l.setAttribute('stroke-width', '1.4');
+  g.appendChild(l);
+  var tx = document.createElementNS(ns, 'text');
+  tx.setAttribute('x', x + 3); tx.setAttribute('y', 130-3 + 12);
+  tx.setAttribute('font-size', '9'); tx.setAttribute('fill', '#D1495B'); tx.setAttribute('font-weight', '700');
+  tx.textContent = 'dziś';
+  g.appendChild(tx);
+})();
+</script>
+</body>
+</html>
